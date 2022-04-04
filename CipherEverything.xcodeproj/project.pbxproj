@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149D995A27FB5BE400DEF6E9 /* DeveloperrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149D995927FB5BE400DEF6E9 /* DeveloperrModel.swift */; };
+		149D995C27FB5DD000DEF6E9 /* DevelopersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149D995B27FB5DD000DEF6E9 /* DevelopersData.swift */; };
 		5BBB893827F9FF6200E78E5C /* PasswordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB893727F9FF6200E78E5C /* PasswordsTableViewController.swift */; };
 		5BBB893A27F9FF6D00E78E5C /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB893927F9FF6D00E78E5C /* TeamTableViewController.swift */; };
 		5BBB893C27F9FF9600E78E5C /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB893B27F9FF9600E78E5C /* Password.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		149D995927FB5BE400DEF6E9 /* DeveloperrModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperrModel.swift; sourceTree = "<group>"; };
+		149D995B27FB5DD000DEF6E9 /* DevelopersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersData.swift; sourceTree = "<group>"; };
 		5BBB893727F9FF6200E78E5C /* PasswordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsTableViewController.swift; sourceTree = "<group>"; };
 		5BBB893927F9FF6D00E78E5C /* TeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewController.swift; sourceTree = "<group>"; };
 		5BBB893B27F9FF9600E78E5C /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 		5BF1186327F8965E004A55E7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				149D995927FB5BE400DEF6E9 /* DeveloperrModel.swift */,
 				5BF1186727F89685004A55E7 /* TeamMember.swift */,
 				5BBB893B27F9FF9600E78E5C /* Password.swift */,
 			);
@@ -133,6 +138,7 @@
 		5BF1186427F89665004A55E7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				149D995B27FB5DD000DEF6E9 /* DevelopersData.swift */,
 				5BF1186527F8966F004A55E7 /* DataManager.swift */,
 			);
 			path = Services;
@@ -217,7 +223,9 @@
 				5BF1186827F89685004A55E7 /* TeamMember.swift in Sources */,
 				5BF1186B27F896DB004A55E7 /* TabBarViewController.swift in Sources */,
 				5BBB893A27F9FF6D00E78E5C /* TeamTableViewController.swift in Sources */,
+				149D995A27FB5BE400DEF6E9 /* DeveloperrModel.swift in Sources */,
 				5BBB893E27FA01CD00E78E5C /* EditPasswordViewController.swift in Sources */,
+				149D995C27FB5DD000DEF6E9 /* DevelopersData.swift in Sources */,
 				5BF1184E27F89601004A55E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -365,13 +373,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JM2LZTGHNA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CipherEverything/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CipherEverything;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,13 +403,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JM2LZTGHNA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CipherEverything/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CipherEverything;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

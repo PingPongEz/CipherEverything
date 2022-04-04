@@ -9,6 +9,8 @@ import UIKit
 
 class TeamTableViewController: UITableViewController {
 
+    var developersList: [Developer]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

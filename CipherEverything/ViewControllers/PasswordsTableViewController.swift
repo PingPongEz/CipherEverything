@@ -9,6 +9,8 @@ import UIKit
 
 class PasswordsTableViewController: UITableViewController {
 
+    var shared = SingleTon.shared
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
